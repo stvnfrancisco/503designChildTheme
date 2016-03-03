@@ -1,0 +1,47 @@
+
+Currently editing:  
+/home1/fivzesg8/public_html/wp-content/themes/503designChildTheme/style.css
+ Encoding:    Reopen  Switch to Code Editor     Close  Save
+
+@import url("../Divi/style.css");
+/*
+Theme Name: Divi-child
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Description: Child theme for the Divi theme
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Template: Divi
+Version: 1.0.0
+*/
+
+
+/*---------REMOVES FOOTER BAR----------*/
+#footer-bottom {
+display: none;
+}
+
+/*-------FONT COLOR HACK----------*'
+sc {
+color: white;
+font-size: 15px;
+}
+
+bl {
+color: #007711;
+}
+
+/*------------------------------LOGO--------------------------------*/
+
+.et_fixed_nav #logo {
+max-height: 75px;
+}
+
+#logo {
+	position: absolute;
+	top:3px;
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+
